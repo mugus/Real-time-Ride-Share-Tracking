@@ -18,6 +18,6 @@ The route consists of the following key points:
 To run the application locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install dependencies:
+3. Install dependencies: npm install
 4. Start the development server:
 5. Open your web browser and navigate to the provided URL(localhost:3000) to view the application.
