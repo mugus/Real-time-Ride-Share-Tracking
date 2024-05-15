@@ -1,0 +1,25 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(to bottom left, #7CD96E, #60DFD4) !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .footer-icon {
+    color: white;
+    font-size: 1.5rem;
+  }
+  

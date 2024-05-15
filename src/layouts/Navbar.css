@@ -1,0 +1,58 @@
+/* Navbar.css */
+.navbar-custom {
+    background: linear-gradient(to bottom left, #7CD96E, #60DFD4) !important;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand-custom {
+    margin-left: auto;
+    color: rgb(9, 0, 0) !important;
+    font-weight: 600;
+    }
+  
+  .nav-link-custom {
+    color: white !important;
+  }
+  
+  .navbar-toggler-custom {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    position: relative;
+  }
+  
+  .navbar-toggler-custom:focus,
+  .navbar-toggler-custom:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler-icon-custom {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler-icon-custom::before,
+  .navbar-toggler-icon-custom::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler-icon-custom::before {
+    top: -8px;
+  }
+  
+  .navbar-toggler-icon-custom::after {
+    top: 8px;
+  }
+  
