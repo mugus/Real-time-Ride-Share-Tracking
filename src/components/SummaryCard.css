@@ -1,0 +1,51 @@
+/* SummaryCard.css */
+.summary-container {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.summary-content {
+  text-align: left;
+  width: 100%;
+}
+
+.summary-content p {
+  margin: 5px 0;
+  font-size: 0.9rem; /* Adjusted font size */
+  color: #333;
+}
+
+.summary-points,
+.summary-distance-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-points p,
+.summary-distance-time p {
+  margin-right: 10px; /* Adjusted margin */
+  white-space: nowrap; /* Prevent line break */
+}
+
+@media (max-width: 767px) {
+  .summary-points,
+  .summary-distance-time {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .summary-distance-time p {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

@@ -3,6 +3,7 @@ import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import NavBar from './layouts/NavBar';
 import Footer from './layouts/Footer';
+import Map from './components/Map';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
       <NavBar/>
         <main className="flex-grow-1">
           
-          <h1>Map Content will be here</h1>
+          <Map />
         
         </main>
       <Footer/>
