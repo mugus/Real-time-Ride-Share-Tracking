@@ -3,7 +3,7 @@ import useLoadScript from '../hooks/useLoadScript';
 import './Map.css';
 
 const Map = () => {
-  const scriptLoaded = useLoadScript(`https://maps.googleapis.com/maps/api/js?key=AIzaSyBvxypxOgI4vYzcOb0sYKkQ942nn0hBwt8&libraries=places`);
+  const scriptLoaded = useLoadScript(`https://maps.googleapis.com/maps/api/js?key=AIzaSyAy0XsWJZjIRD-W1D79B647Ys0FVMoh2GU&libraries=places`);
   const mapRef = useRef(null);
   const [map, setMap] = useState(null);
   const [directionsService, setDirectionsService] = useState(null);
