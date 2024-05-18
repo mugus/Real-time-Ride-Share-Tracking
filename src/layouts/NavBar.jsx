@@ -6,10 +6,6 @@ import CheckPointForm from '../components/CheckPointForm';
 function NavBar() {
   const [showForm, setShowForm] = useState(false);
 
-  const handleAboutClick = () => {
-    setShowForm(!showForm);
-  };
-
 
   console.log(showForm);
   return (
@@ -21,7 +17,7 @@ function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home" className="nav-link-custom">Home</Nav.Link>
-              <Nav.Link href="#" className="nav-link-custom" onClick={handleAboutClick}>About</Nav.Link>
+              <Nav.Link href="#" className="nav-link-custom" onClick={() => {setShowForm(!showForm)}}>Checkpoint</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
